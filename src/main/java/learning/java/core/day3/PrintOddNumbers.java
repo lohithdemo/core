@@ -13,7 +13,7 @@ public class PrintOddNumbers {
 		
 	}
 	
-	private void printOddNumbers() {
+	public void printOddNumbers() {
 		Scanner sc = new Scanner(System.in);
 		int start = sc.nextInt();
 		int end = sc.nextInt();
