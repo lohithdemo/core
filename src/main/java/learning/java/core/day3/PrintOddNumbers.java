@@ -13,7 +13,7 @@ public class PrintOddNumbers {
 		
 	}
 	
-	private void printEvenNumbers(int start, int end) {
+	private void printOddNumbers(int start, int end) {
 		for(int i = start; i <= end; i++) {
 			if (i %2 != 0) {
 				System.out.println(i);
@@ -28,7 +28,7 @@ public class PrintOddNumbers {
 		int start = sc.nextInt();
 		int end = sc.nextInt();
 		
-		p.printEvenNumbers(start, end);
+		p.printOddNumbers(start, end);
 		sc.close();
 	}
 	
