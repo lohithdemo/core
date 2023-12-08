@@ -13,7 +13,12 @@ public class PrintOddNumbers {
 		
 	}
 	
-	private void printOddNumbers(int start, int end) {
+	private void printOddNumbers() {
+		Scanner sc = new Scanner(System.in);
+		int start = sc.nextInt();
+		int end = sc.nextInt();
+		sc.close();
+
 		for(int i = start; i <= end; i++) {
 			if (i %2 != 0) {
 				System.out.println(i);
@@ -24,12 +29,7 @@ public class PrintOddNumbers {
 	public static void main(String[] args) {
 		
 		PrintOddNumbers p = new PrintOddNumbers();
-		Scanner sc = new Scanner(System.in);
-		int start = sc.nextInt();
-		int end = sc.nextInt();
-		
-		p.printOddNumbers(start, end);
-		sc.close();
+		p.printOddNumbers();
 	}
 	
  }
