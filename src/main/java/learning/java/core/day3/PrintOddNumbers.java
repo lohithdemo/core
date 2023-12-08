@@ -3,7 +3,7 @@ package learning.java.core.day3;
 import java.util.Scanner;
 
 /**
- * Reverse a String
+ * Print odd numbers
  * @author Lohith.Samaga
  *
  */

@@ -1,7 +1,8 @@
 package learning.java.core.day3;
 
 /**
- * Reverse a String
+ * Print  even numbers
+ * 
  * @author Lohith.Samaga
  *
  */
